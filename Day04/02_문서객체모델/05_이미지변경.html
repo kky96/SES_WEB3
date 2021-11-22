@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 변경</title>
+    <script>
+        document.addEventListener('DOMContentLoaded' ,()=>{
+
+        const imgs= document.querySelectorAll('.img')
+        
+        // imgs 목로그이 각 요소를 img 로 접근한다.
+        // img 항목의 순서번로를 index로 지정한다 .
+        img.forEach((img, index)=>{
+            const width = (inedx+1)*100;
+            const src = 'C:\Users\admin\Desktop\SBS_KKY\WEB3\SES_WEB3\Day04\02_문서객체모델\imgs\chinchilla.jpg';
+            img.setAttribute('width', width);
+            img.setAttribute('src', src);
+            })
+        })
+    </script>
+</head>
+<body>
+    <img class="img">
+    <img class="img">
+    <img class="img">
+    <img class="img">
+</body>
+</html>
